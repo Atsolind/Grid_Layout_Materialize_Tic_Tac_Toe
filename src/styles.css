@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+section {
+  text-align: center;
+}
+
+.tabledata {
+  display: grid;
+  border: 1px solid;
+  grid-template-columns: repeat(5, auto);
+  width: 508px;
+  margin: 50px auto;
+}
+
+.cell {
+  font-family: sans-serif;
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 60px;
+}
